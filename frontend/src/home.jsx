@@ -23,14 +23,19 @@ function Home() {
       company: "Innovate LLC",
       location: "Austin, TX",
     },
+    {
+      title: "UI/UX Designer",
+      company: "Corporate Designs",
+      location: "Miami, FL",
+    }
   ];
 
   return (
-    <div className="min-h-screen bg-[#18191a] text-white">
+    <div className="min-h-screen bg-black text-white">
       {/* Header */}
-      <header className="bg-[#242526] shadow sticky top-0 z-50">
+      <header className="bg-[#ffffff] shadow sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          <h1 className="animate-bounce text-2xl font-extrabold text-white">
+          <h1 className="animate-bounce text-2xl font-extrabold text-black">
             Chakri Hobe
           </h1>
           <nav>
@@ -107,19 +112,19 @@ function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-[#242526] shadow mt-12">
-        <div className="max-w-7xl mx-auto px-6 py-8 text-center">
-          <p className="text-gray-600">
+      <footer className="bg-[#ffffff] shadow mt-12 inset-x-0 buttom-0">
+        <div className="max-w-7xl mx-auto px-6 py-8 text-center text-black">
+          <p className="text-black">
             &copy; 2024 Chakri Hobe. All rights reserved.
           </p>
           <div className="flex justify-center space-x-6 mt-4">
-            <a href="#" className="text-whitelue-600 hover:underline">
+            <a href="#" className=" hover:underline">
               Privacy Policy
             </a>
-            <a href="#" className="text-whitelue-600 hover:underline">
+            <a href="#" className="hover:underline">
               Terms of Service
             </a>
-            <a href="#" className="text-whitelue-600 hover:underline">
+            <a href="#" className=" hover:underline">
               Contact Us
             </a>
           </div>
